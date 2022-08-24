@@ -6,6 +6,6 @@ ENV NODE_EMV production
 
 COPY . .
 
-RUN npm ci
+RUN npmit ci
 
 CMD ["npm", "run", "start"]

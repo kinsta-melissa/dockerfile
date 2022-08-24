@@ -2,7 +2,7 @@ FROM node:18
 
 WORKDIR /opt/app
 
-ENV NODE_EVN production
+ENV NODE_EMV production
 
 COPY . .
 
